@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/ticket1.png.png">
+    <title>MasterPass</title>
+</head>
+<body>
+
+    <header class="header">
+        <!-- <picture class="header__pic"><img src="https://via.placeholder.com/72/d60257/PNG" alt=""></picture> -->
+        <picture class="header__pic"><img class="header__pic--img" src="./assets/Waveform.png.png" alt=""></picture>
+        <h1 class="header__title">MASTERpass</h1>
+        <nav class="header__navbar">
+            <ul class="header__navbar--list">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#shows">Shows</a></li>
+            </ul>
+        </nav>
+        <label for="cart-toggle" class="header__cart">
+            <img src="./assets/ICONS/Cart.png" alt="" class="header__cart--icon">
+        </label>
+
+        <!-- MOBILE -->
+        <nav class="mobinav">
+            <label for="menu-toggle" class="mobinav__label">
+                <img src="./assets/ICONS/Hamburger.png" alt="" class="mobinav__label--icon">
+            </label>
+            <input type="checkbox" id="menu-toggle" class="mobinav__input">
+            <ul class="mobinav__list">
+                <li class="mobinav__list--link"><a href="#hero">Inicio</a></li>
+                <li class="mobinav__list--link"><a href="#about">Nosotros</a></li>
+                <li class="mobinav__list--link"><a href="#contact">Contacto</a></li>
+                <li class="mobinav__list--link"><a href="#shows">Shows</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main id="hero">
+        <section class="hero">
+            <article class="hero__article">    
+                <h2 class="hero__article--title">Accede a los espectaculos que mas te gustan!</h2>
+                <p class="hero__article--paragraph">Compra tus entradas para nuestra amplia variedad de espectaculos en la Republica Argentina.</p>
+                <ul class="article__list">
+                    <li><a href="#contact" class="article__btn--enlace">Contactanos</a></li>
+                </ul>
+            </article>
+            <picture class="hero__pic">
+                
+                <img class="hero__pic--img" src="./assets/Escenario.png.png" alt="">
+                
+
+            </picture>
+
+        </section>
+
+        <section id="about">
+            <article class="about">
+                <h2 class="about__title">Adquiri tus entradas!</h2>
+                <p class="about__paragraph">En <span>MASTERpass</span> somos la plataforma lider en venta y gestion de entradas para toda a la Republica Argentina.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- NUESTRAS VENTAJAS -->
+
+    <section id="advantage" class="advantage">
+        <header class="advantage__header">
+            <h2 class="advantage__header--title">Porque elegirnos a nosotros?</h2>
+            <p class="advantage__header--paragraph">Podes comprar, vender y gestionar tus entradas, en tres simples pasos y de forma segura.</p>
+        </header>
+
+        <ul class="advantage__list">
+            <li class="advantage__list--card">
+                <picture><img src="./assets/ICONS/Member.png" alt=""></picture>
+                <h3>Registrate</h3>
+                <p>Completa tus datos y confirma tu identidad.</p>
+            </li>
+
+            <li class="advantage__list--card">
+                <picture><img src="./assets/ICONS/Login.png" alt=""></picture>
+                <h3>Inicia sesion</h3>
+                <p>Ingresa con tu usuario y contraseña.</p>
+            </li>
+
+            <li class="advantage__list--card">
+                <picture><img src="./assets/ICONS/Cart.png" alt=""></picture>
+                <h3>Elegi un show</h3>
+                <p>Selecciona un espectaculo y compra tus entradas.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact">
+        
+        <article class="contact">
+            <h2 class="contact__title">Contactanos</h2>
+            <ul class="contact__list">
+                <li class="contact__list--item">
+                    <picture><img src="./assets/ICONS/Adress.png" alt=""></picture>
+                    <p>Av Cordoba N° 3500 - CABA</p>
+                </li>
+                <li class="contact__list--item">
+                    <picture><img src="./assets/ICONS/Mail.png" alt=""></picture>
+                    <p>contacto@masterpass.com</p>
+                </li>
+                <li class="contact__list--item">
+                    <picture><img src="./assets/ICONS/Phone.png" alt=""></picture>
+                    <p>11-22959782</p>
+                </li>
+            </ul> 
+        </article>
+
+        <picture class="contact__pic"><img src="./assets/Notebookticket1.png.png" alt=""></picture>    
+       
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <picture class="footer__pic"><img src="./assets/Waveform.png.png" alt=""></picture>
+
+    </footer>
+</body>
+</html>
